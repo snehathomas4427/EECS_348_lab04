@@ -1,32 +1,32 @@
 
 #include <stdio.h>
 
-float celsius_to_fahrenheit(float celsius){
+float celsius_to_fahrenheit(float celsius){ //converts celsius_to_fahrenheit
     float f = (9.0/5.0)*celsius + 32;
     return f;
 }
     
-float celsius_to_kelvin(float celsius){
+float celsius_to_kelvin(float celsius){ //converts celsius_to_kelvin
     float k = celsius + 273.15;
     return k;
 }
 
-float fahrenheit_to_celsius(float fahrenheit){
+float fahrenheit_to_celsius(float fahrenheit){ //converts fahrenheit_to_celsius
     float c = (5.0/9.0)*(fahrenheit - 32);
     return c;
 }
 
-float fahrenheit_to_kelvin(float fahrenheit){
+float fahrenheit_to_kelvin(float fahrenheit){ //converts fahrenheit_to_kelvin
     float k = (fahrenheit - 32)*(5.0/9.0) + 273.15;
     return k;
 }
 
-float kelvin_to_celsius(float kelvin){
+float kelvin_to_celsius(float kelvin){ //converts kelvin_to_celsius
     float c = kelvin - 273.15;
     return c;
 }
 
-float kelvin_to_fahrenheit(float kelvin){
+float kelvin_to_fahrenheit(float kelvin){ //converts kelvin_to_fahrenheit
     float f = (kelvin - 273.15)*(9.0/5.0) + 32;
     return f;
 }
